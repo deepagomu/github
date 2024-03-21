@@ -1,0 +1,64 @@
+
+.header{
+    background-color: cyan;
+    color: red;
+    padding: 20px;
+}
+li,h1,ul{
+    display:inline;   
+}
+ul{
+    margin-left: 50%;
+}
+li{
+    padding-right: 30px;
+}
+li:hover{
+    background-color: white;
+    padding: 1%;
+    border-radius: 30%;
+    transition: all 0.2s ease;
+}
+.dsg{
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+}
+.photo{
+    background-color: palevioletred;
+    color: black;
+    display:block;
+    width: 200px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container div{
+    margin: 10px;
+    flex-basis: 24%;
+    
+}
+.container img:hover{
+    zoom:1.1;
+}
+.low
+{
+    background-color: yellowgreen;
+    color: black;
+    display: block;
+    width: 300px;
+}
+.def{
+padding: 30px;
+font-size: 15px;
+}
+.contact
+{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    height: 130px;
+}

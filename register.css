@@ -1,0 +1,32 @@
+.header{
+    background-color: cyan;
+    color: red;
+    padding: 20px;
+}
+li,h1,ul{
+    display:inline;   
+}
+ul{
+    margin-left: 50%;
+}
+li{
+    padding-right: 30px;
+}
+li:hover{
+    background-color: white;
+    padding: 1%;
+    border-radius: 30%;
+    transition: all 0.2s ease;
+}
+.reg{
+    display: inline-block;
+    color: purple;
+}
+.contact
+{
+    padding: 30px;
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    height: 130px;
+}
